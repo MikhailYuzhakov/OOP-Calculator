@@ -3,6 +3,10 @@ import java.util.Scanner;
 public class View {
     Scanner in = new Scanner(System.in);
 
+    String getOperand() {
+        return in.next();
+    }
+    
 
     Complex getValue() {
         Complex c = new Complex();
@@ -24,6 +28,12 @@ public class View {
         sb.append(String.format("%s%.2f %.2fi", title, result.getReal(), result.getImage()));
         return sb.toString();
 
+    }
+
+    String viewMenu() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("+ - / *");
+        return sb.toString();
     }
 
 }
