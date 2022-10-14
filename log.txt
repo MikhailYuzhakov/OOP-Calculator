@@ -1,0 +1,4 @@
+окт. 14, 2022 11:33:58 PM Presenter clickButton
+INFO: 0,90+0,24i
+окт. 14, 2022 11:34:05 PM Presenter clickButton
+INFO: 4,00+7,00i
